@@ -3,12 +3,13 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>as</groupId>
-  <artifactId>CampusMgmtSyatem</artifactId>
+  <artifactId>CampusMgmtSystem</artifactId>
+  <version>1.0-SNAPSHOT</version>
 
-  <packing>jar</packing>
+  <packaging>jar</packaging>
 
   <name>JPROJECT</name>
-  <url>local:host:8080/FoodSystem</url>
+  <url>http://localhost:8080/FoodSystem</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -17,8 +18,8 @@
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
-      <artifactId>as</artifactId>
-      <version>3.8.1</version>
+      <artifactId>junit</artifactId>
+      <version>4.13.2</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
@@ -29,10 +30,10 @@
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.13.0</version>
         <configuration>
-          <release>8</release>
+          <release>17</release>
         </configuration>
       </plugin>
     </plugins>
-    <finalName>Food-system-xyz>/FinalName>
+    <finalName>CampusMgmtSystem</finalName>
   </build>
 </project>
